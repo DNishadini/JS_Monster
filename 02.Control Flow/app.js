@@ -39,8 +39,20 @@ while (i <= 100) {
 }*/
 
 //Example 05
-let i = 20;
+/*let i = 20;
 do {
   console.log("Dinushika", i);
   i++;
-} while (i <= 400);
+} while (i <= 400);*/
+
+//Example 06
+const favSinger = ["Adele", "Taylor Swift", "Ed sheeran"];
+console.log(favSinger[0]);
+
+const favNumbers = [7, 3, 9, 27];
+console.log(favNumbers);
+const mixedArray = ["string", ["otherarray"], 123, true];
+console.log(mixedArray[0]);
+console.log(mixedArray[1][0]);
+console.log(mixedArray[2]);
+console.log(mixedArray[3]);
