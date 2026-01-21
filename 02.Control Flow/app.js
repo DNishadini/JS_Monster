@@ -66,9 +66,19 @@ car.wheels = 4;
 console.log(car);*/
 
 //Example 08
-function myFunction(num1, num2) {
+/*function myFunction(num1, num2) {
   return num1 * num2;
 }
 
 let res = myFunction(4, 3);
-console.log(res);
+console.log(res);*/
+
+//Example 09
+function showCallFunc(fn) {
+  const value = 10;
+  fn(value);
+}
+
+showCallFunc(function (val) {
+  console.log(val);
+});
