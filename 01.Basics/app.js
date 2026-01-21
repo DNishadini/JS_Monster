@@ -22,9 +22,21 @@ console.log(firstFavNum ** secondFavNum);
 */
 
 //Example 3
-let isJsProgrammingLanguage = true;
+/*let isJsProgrammingLanguage = true;
 let isJsHard = false;
 let favNumber = 7;
 console.log(isJsProgrammingLanguage);
 console.log(isJsHard);
-console.log(favNumber + undefined);
+console.log(favNumber + undefined);*/
+
+//Example 4
+let firstFavNum = 7;
+let secondFavNum = 3.5;
+console.log(firstFavNum > secondFavNum);
+console.log(firstFavNum < secondFavNum);
+console.log(firstFavNum >= secondFavNum);
+console.log(firstFavNum <= secondFavNum);
+console.log(firstFavNum === secondFavNum);
+console.log(firstFavNum == secondFavNum);
+console.log(firstFavNum !== secondFavNum);
+console.log(firstFavNum != secondFavNum);
