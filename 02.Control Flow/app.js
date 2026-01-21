@@ -26,6 +26,14 @@ switch (fruit) {
     console.log("I have never heard of that fruit");
 }*/
 
-for (let i = 0; i < 1000; i++) {
+//Example 03
+/*for (let i = 0; i < 1000; i++) {
   console.log(" I'm Dinushika.The number is " + i);
+}*/
+
+//Example 04
+let i = 10;
+while (i <= 100) {
+  console.log("Dinushika", i);
+  i++;
 }
