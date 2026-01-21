@@ -58,9 +58,17 @@ console.log(mixedArray[2]);
 console.log(mixedArray[3]);*/
 
 //Example 07
-const car = { type: "Fiat", model: "500", color: "white" };
+/*const car = { type: "Fiat", model: "500", color: "white" };
 console.log(typeof car);
 console.log(car.type);
 car.type = "Toyota";
 car.wheels = 4;
-console.log(car);
+console.log(car);*/
+
+//Example 08
+function myFunction(num1, num2) {
+  return num1 * num2;
+}
+
+let res = myFunction(4, 3);
+console.log(res);
