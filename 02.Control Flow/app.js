@@ -32,8 +32,15 @@ switch (fruit) {
 }*/
 
 //Example 04
-let i = 10;
+/*let i = 10;
 while (i <= 100) {
   console.log("Dinushika", i);
   i++;
-}
+}*/
+
+//Example 05
+let i = 20;
+do {
+  console.log("Dinushika", i);
+  i++;
+} while (i <= 400);
