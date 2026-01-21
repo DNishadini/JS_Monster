@@ -11,7 +11,7 @@ if (password === 8) {
 }*/
 
 //Example 02
-let fruit = "Banana";
+/*let fruit = "Banana";
 switch (fruit) {
   case "Banana":
     console.log("Banana is good!");
@@ -24,4 +24,8 @@ switch (fruit) {
     break;
   default:
     console.log("I have never heard of that fruit");
+}*/
+
+for (let i = 0; i < 1000; i++) {
+  console.log(" I'm Dinushika.The number is " + i);
 }
