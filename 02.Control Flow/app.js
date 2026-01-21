@@ -46,7 +46,7 @@ do {
 } while (i <= 400);*/
 
 //Example 06
-const favSinger = ["Adele", "Taylor Swift", "Ed sheeran"];
+/*const favSinger = ["Adele", "Taylor Swift", "Ed sheeran"];
 console.log(favSinger[0]);
 
 const favNumbers = [7, 3, 9, 27];
@@ -55,4 +55,12 @@ const mixedArray = ["string", ["otherarray"], 123, true];
 console.log(mixedArray[0]);
 console.log(mixedArray[1][0]);
 console.log(mixedArray[2]);
-console.log(mixedArray[3]);
+console.log(mixedArray[3]);*/
+
+//Example 07
+const car = { type: "Fiat", model: "500", color: "white" };
+console.log(typeof car);
+console.log(car.type);
+car.type = "Toyota";
+car.wheels = 4;
+console.log(car);
