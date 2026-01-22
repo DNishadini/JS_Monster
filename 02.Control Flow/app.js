@@ -95,7 +95,7 @@ const firstName = "Dinushika";
 const lastName = "Senarathne";
 console.log(`${firstName} ${lastName}`);*/
 
-setTimeout(() => {
+/*setTimeout(() => {
   console.log("Hello");
   setTimeout(() => {
     console.log("Hey");
@@ -109,4 +109,67 @@ setTimeout(() => {
       }, 2000);
     }, 2000);
   }, 2000);
-}, 2000);
+}, 2000);*/
+
+//Example 11(Enhanced Object Literals)
+/*var a = 1;
+var b = 2;
+var c = 3;
+
+var obj = {
+  a: a,
+  b: b,
+  c: c,
+};
+console.log(obj);
+
+const a = 1;
+const b = 2;
+const c = 3;
+
+var obj = {
+  a,
+  b,
+  c,
+};
+console.log(obj);*/
+
+//Example 12 (Enhanced Object Literals)
+
+/*var lib = {
+  sum: function (x, y) {
+    return x + y;
+  },
+  mult: function (x, y) {
+    return x * y;
+  },
+};
+console.log(lib.sum(2, 3));
+console.log(lib.mult(2, 3));
+
+const lib = {
+  sum: (x, y) => x + y,
+
+  mult: (x, y) => x * y,
+};
+console.log(lib.sum(2, 3));
+console.log(lib.mult(2, 3));*/
+
+//Example 13 (Enhanced Object Literals)
+function getPersion(name, age, height) {
+  return {
+    name: name,
+    age: age,
+    height: height,
+  };
+}
+console.log(getPersion("Dinushika", 22, 5.7));
+
+function getPersion(name, age, height) {
+  return {
+    name,
+    age,
+    height,
+  };
+}
+console.log(getPersion("Dinushika", 22, 5.7));
