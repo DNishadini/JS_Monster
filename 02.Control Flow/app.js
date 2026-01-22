@@ -175,8 +175,14 @@ function getPersion(name, age, height) {
 console.log(getPersion("Dinushika", 22, 5.7));*/
 
 //Example 14 (Default Parameters)
-function multiply(a, b = 1) {
+/*function multiply(a, b = 1) {
   return a * b;
 }
 console.log(multiply(5));
-console.log(multiply(5, 2));
+console.log(multiply(5, 2));*/
+
+//Example 15
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5];
+const arr3 = [...arr1, ...arr2];
+console.log(arr3);
