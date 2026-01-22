@@ -156,7 +156,7 @@ console.log(lib.sum(2, 3));
 console.log(lib.mult(2, 3));*/
 
 //Example 13 (Enhanced Object Literals)
-function getPersion(name, age, height) {
+/*function getPersion(name, age, height) {
   return {
     name: name,
     age: age,
@@ -172,4 +172,11 @@ function getPersion(name, age, height) {
     height,
   };
 }
-console.log(getPersion("Dinushika", 22, 5.7));
+console.log(getPersion("Dinushika", 22, 5.7));*/
+
+//Example 14 (Default Parameters)
+function multiply(a, b = 1) {
+  return a * b;
+}
+console.log(multiply(5));
+console.log(multiply(5, 2));
