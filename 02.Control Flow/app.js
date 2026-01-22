@@ -85,7 +85,7 @@ showCallFunc(function (val) {
 */
 
 //Example 10
-const text = `The quick
+/*const text = `The quick
 brown fox
 jumps over
 the lazy dog.`;
@@ -93,4 +93,20 @@ console.log(text);
 
 const firstName = "Dinushika";
 const lastName = "Senarathne";
-console.log(`${firstName} ${lastName}`);
+console.log(`${firstName} ${lastName}`);*/
+
+setTimeout(() => {
+  console.log("Hello");
+  setTimeout(() => {
+    console.log("Hey");
+    setTimeout(() => {
+      console.log("Namaste");
+      setTimeout(() => {
+        console.log("Hi");
+        setTimeout(() => {
+          console.log("Bonjour");
+        }, 2000);
+      }, 2000);
+    }, 2000);
+  }, 2000);
+}, 2000);
