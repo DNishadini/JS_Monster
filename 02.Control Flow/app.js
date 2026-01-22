@@ -74,7 +74,7 @@ let res = myFunction(4, 3);
 console.log(res);*/
 
 //Example 09
-function showCallFunc(fn) {
+/*function showCallFunc(fn) {
   const value = 10;
   fn(value);
 }
@@ -82,3 +82,15 @@ function showCallFunc(fn) {
 showCallFunc(function (val) {
   console.log(val);
 });
+*/
+
+//Example 10
+const text = `The quick
+brown fox
+jumps over
+the lazy dog.`;
+console.log(text);
+
+const firstName = "Dinushika";
+const lastName = "Senarathne";
+console.log(`${firstName} ${lastName}`);
