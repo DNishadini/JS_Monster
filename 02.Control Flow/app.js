@@ -182,7 +182,19 @@ console.log(multiply(5));
 console.log(multiply(5, 2));*/
 
 //Example 15
-let arr1 = [1, 2, 3];
+/*let arr1 = [1, 2, 3];
 let arr2 = [4, 5];
 const arr3 = [...arr1, ...arr2];
 console.log(arr3);
+
+const user={name:"Dinushika",age:22};
+const userClone={...user,address:"Sri Lanka"};
+console.log(userClone);*/
+
+//Example 16 (Rest Parameters )
+
+function variadic(...args) {
+  console.log(args);
+}
+
+variadic("Hello", 1, true, [1, 2, 3]);
