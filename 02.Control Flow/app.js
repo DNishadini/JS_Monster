@@ -380,7 +380,7 @@ console.log(res);
 
 //Example 30 (Map data structure)
 
-const map = new Map();
+/*const map = new Map();
 
 map.set("a", 1);
 map.set("b", 2);
@@ -390,4 +390,12 @@ const ext = map.get("a");
 console.log(ext);
 console.log(map.size);
 map.delete("b");
-console.log(map.size);
+console.log(map.size);*/
+
+//Example 31 (Set data structure)
+const letters = new Set();
+letters.add("a");
+letters.add("b");
+letters.add("c");
+letters.add("a");
+console.log(letters); //duplicate values are ignored
