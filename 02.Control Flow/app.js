@@ -318,7 +318,7 @@ const res = ages.find(checkAdult);
 console.log(res);*/
 
 //Example 27
-let products = [
+/*let products = [
   { name: "Checkers", category: "Toys" },
   { name: "Harry Potter", category: "Books" },
   { name: "iphone", category: "Electronics" },
@@ -337,3 +337,33 @@ console.log(product);
 //Using find method
 const prod = products.find((p) => p.category === "Books");
 console.log(prod);
+*/
+
+//Example 28 (Refactor->use every and some hepler methods)
+
+let products = [
+  { name: "Checkers", category: "Toys" },
+  { name: "Harry Potter", category: "Books" },
+  { name: "iphone", category: "Electronics" },
+  { name: "Learn PHP", category: "Books" },
+];
+
+let allProductsAreBooks = true;
+let someProductsAreBooks = false;
+
+for (let i = 0; i < products.length; i++) {
+  if (products[i].category !== "Books") {
+    allProductsAreBooks = false;
+  } else {
+    someProductsAreBooks = true;
+  }
+}
+console.log(allProductsAreBooks);
+console.log(someProductsAreBooks);
+
+//Refactor using every and some helper methods
+const allBooks = products.every((p) => p.category === "Books");
+console.log(allBooks);
+
+const someBooks = products.some((p) => p.category === "Books");
+console.log(someBooks);
