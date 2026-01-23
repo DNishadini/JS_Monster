@@ -200,8 +200,22 @@ console.log(userClone);*/
 variadic("Hello", 1, true, [1, 2, 3]);*/
 
 //Example 17 (Array Destructuring)
-const colors = ["red", "green", "blue", "yellow", "orange"];
+/*const colors = ["red", "green", "blue", "yellow", "orange"];
 const [color1, color2, color3] = colors;
 console.log(color1);
 console.log(color2);
 console.log(color3);
+*/
+
+//Example 18 (Object Destructuring)
+const person = {
+  name: "Dinushika",
+  age: 22,
+  country: "Sri Lanka",
+  gender: "Female",
+};
+
+const { name, age, country } = person;
+console.log(name);
+console.log(age);
+console.log(country);
