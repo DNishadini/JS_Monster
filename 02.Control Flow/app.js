@@ -393,7 +393,7 @@ map.delete("b");
 console.log(map.size);*/
 
 //Example 31 (Set data structure)
-const letters = new Set();
+/*const letters = new Set();
 letters.add("a");
 letters.add("b");
 letters.add("c");
@@ -402,4 +402,19 @@ console.log(letters);
 
 for (let values of letters) {
   console.log(values);
+}*/
+
+//Example 32 (Symbol data type)
+const sym = Symbol("foo");
+console.log(typeof sym);
+const person = {
+  firstName: "Dinushika",
+  lastName: "Senarathne",
+};
+
+person[Symbol("foo")] = "asdfbnm";
+console.log(person);
+
+for (let key in person) {
+  console.log(key);
 }
