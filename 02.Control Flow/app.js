@@ -341,7 +341,7 @@ console.log(prod);
 
 //Example 28 (Refactor->use every and some hepler methods)
 
-let products = [
+/*let products = [
   { name: "Checkers", category: "Toys" },
   { name: "Harry Potter", category: "Books" },
   { name: "iphone", category: "Electronics" },
@@ -366,4 +366,13 @@ const allBooks = products.every((p) => p.category === "Books");
 console.log(allBooks);
 
 const someBooks = products.some((p) => p.category === "Books");
-console.log(someBooks);
+console.log(someBooks);*/
+
+//Example 29 (reduce method)
+const numbers = [1, 2, 3, 4, 5];
+
+function calculateProduct(arr) {
+  return (product = arr.reduce((p, c) => p * c, 1));
+}
+const res = calculateProduct(numbers);
+console.log(res);
