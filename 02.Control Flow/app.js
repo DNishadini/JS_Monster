@@ -193,8 +193,15 @@ console.log(userClone);*/
 
 //Example 16 (Rest Parameters )
 
-function variadic(...args) {
+/*function variadic(...args) {
   console.log(args);
 }
 
-variadic("Hello", 1, true, [1, 2, 3]);
+variadic("Hello", 1, true, [1, 2, 3]);*/
+
+//Example 17 (Array Destructuring)
+const colors = ["red", "green", "blue", "yellow", "orange"];
+const [color1, color2, color3] = colors;
+console.log(color1);
+console.log(color2);
+console.log(color3);
