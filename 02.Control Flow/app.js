@@ -251,7 +251,14 @@ console.log(canBuy);*/
 
 //Example 21(for...in loop)
 
-const object = { a: 1, b: 2, c: 3 };
+/*const object = { a: 1, b: 2, c: 3 };
 for (key in object) {
   console.log(key, object[key]);
+  console.log(`${key}: ${object[key]}`);
+}*/
+
+//Example 22(for...of loop)
+const array1 = ["a", "b", "c"];
+for (let letter of array1) {
+  console.log(letter);
 }
