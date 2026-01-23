@@ -208,7 +208,7 @@ console.log(color3);
 */
 
 //Example 18 (Object Destructuring)
-const person = {
+/*const person = {
   name: "Dinushika",
   age: 22,
   country: "Sri Lanka",
@@ -218,4 +218,23 @@ const person = {
 const { name, age, country } = person;
 console.log(name);
 console.log(age);
-console.log(country);
+console.log(country);*/
+
+//Example 19
+const person = {
+  name: "Dinushika",
+  age: 22,
+  country: "Sri Lanka",
+  gender: "Female",
+};
+
+const {
+  name: personName,
+  age: personAge,
+  country: personCountry,
+  gender: personGender,
+} = person;
+console.log(personName);
+console.log(personAge);
+console.log(personCountry);
+console.log(personGender);
