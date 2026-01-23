@@ -264,7 +264,7 @@ for (let letter of array1) {
 }*/
 
 //Example 23 (forEach method)
-let array = [1, 2, 3, 4, 5];
+/*let array = [1, 2, 3, 4, 5];
 let sum = 0;
 
 function adder(num) {
@@ -272,4 +272,14 @@ function adder(num) {
 }
 
 array.forEach(adder);
-console.log(sum);
+console.log(sum);*/
+
+const numbers = [65, 44, 12, 4];
+
+function myFunction(num) {
+  return num * 10;
+}
+
+let newArray = numbers.map(myFunction);
+
+console.log(newArray);
