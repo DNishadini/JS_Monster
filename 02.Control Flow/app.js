@@ -398,4 +398,8 @@ letters.add("a");
 letters.add("b");
 letters.add("c");
 letters.add("a");
-console.log(letters); //duplicate values are ignored
+console.log(letters);
+
+for (let values of letters) {
+  console.log(values);
+}
