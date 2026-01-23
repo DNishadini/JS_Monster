@@ -274,7 +274,7 @@ function adder(num) {
 array.forEach(adder);
 console.log(sum);*/
 
-const numbers = [65, 44, 12, 4];
+/*const numbers = [65, 44, 12, 4];
 
 function myFunction(num) {
   return num * 10;
@@ -282,4 +282,26 @@ function myFunction(num) {
 
 let newArray = numbers.map(myFunction);
 
-console.log(newArray);
+console.log(newArray);*/
+
+//Example 24 (Filter method)
+const ages = [32, 33, 16, 40];
+
+const res = ages.filter((a) => a >= 18);
+console.log(res);
+
+//Example 25
+const words = [
+  "spray",
+  "limit",
+  "elite",
+  "exuberant",
+  "destruction",
+  "present",
+];
+
+function checkLength(word) {
+  return word.length > 6;
+}
+const longWords = words.filter(checkLength);
+console.log(longWords);
