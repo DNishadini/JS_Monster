@@ -369,10 +369,25 @@ const someBooks = products.some((p) => p.category === "Books");
 console.log(someBooks);*/
 
 //Example 29 (reduce method)
-const numbers = [1, 2, 3, 4, 5];
+/*const numbers = [1, 2, 3, 4, 5];
 
 function calculateProduct(arr) {
   return (product = arr.reduce((p, c) => p * c, 1));
 }
 const res = calculateProduct(numbers);
 console.log(res);
+*/
+
+//Example 30 (Map data structure)
+
+const map = new Map();
+
+map.set("a", 1);
+map.set("b", 2);
+map.set("c", 3);
+
+const ext = map.get("a");
+console.log(ext);
+console.log(map.size);
+map.delete("b");
+console.log(map.size);
