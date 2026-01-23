@@ -221,7 +221,7 @@ console.log(age);
 console.log(country);*/
 
 //Example 19
-const person = {
+/*const person = {
   name: "Dinushika",
   age: 22,
   country: "Sri Lanka",
@@ -237,4 +237,8 @@ const {
 console.log(personName);
 console.log(personAge);
 console.log(personCountry);
-console.log(personGender);
+console.log(personGender);*/
+
+const age = 25;
+const isAdult = age >= 18 ? "Yes, is an adult" : "No, is not an adult";
+console.log(isAdult);
