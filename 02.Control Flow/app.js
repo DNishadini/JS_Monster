@@ -308,11 +308,32 @@ console.log(longWords);*/
 
 //Example 26 (find method)
 
-const ages = [3, 10, 18, 20];
+/*const ages = [3, 10, 18, 20];
 
 function checkAdult(age) {
   return age > 18;
 }
 
 const res = ages.find(checkAdult);
-console.log(res);
+console.log(res);*/
+
+//Example 27
+let products = [
+  { name: "Checkers", category: "Toys" },
+  { name: "Harry Potter", category: "Books" },
+  { name: "iphone", category: "Electronics" },
+  { name: "Learn PHP", category: "Books" },
+];
+
+let product;
+for (let i = 0; i < products.length; i++) {
+  if (products[i].category === "Books") {
+    product = products[i];
+    break;
+  }
+}
+console.log(product);
+
+//Using find method
+const prod = products.find((p) => p.category === "Books");
+console.log(prod);
