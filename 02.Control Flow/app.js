@@ -285,13 +285,13 @@ let newArray = numbers.map(myFunction);
 console.log(newArray);*/
 
 //Example 24 (Filter method)
-const ages = [32, 33, 16, 40];
+/*const ages = [32, 33, 16, 40];
 
 const res = ages.filter((a) => a >= 18);
-console.log(res);
+console.log(res);*/
 
 //Example 25
-const words = [
+/*const words = [
   "spray",
   "limit",
   "elite",
@@ -304,4 +304,15 @@ function checkLength(word) {
   return word.length > 6;
 }
 const longWords = words.filter(checkLength);
-console.log(longWords);
+console.log(longWords);*/
+
+//Example 26 (find method)
+
+const ages = [3, 10, 18, 20];
+
+function checkAdult(age) {
+  return age > 18;
+}
+
+const res = ages.find(checkAdult);
+console.log(res);
