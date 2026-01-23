@@ -258,7 +258,18 @@ for (key in object) {
 }*/
 
 //Example 22(for...of loop)
-const array1 = ["a", "b", "c"];
+/*const array1 = ["a", "b", "c"];
 for (let letter of array1) {
   console.log(letter);
+}*/
+
+//Example 23 (forEach method)
+let array = [1, 2, 3, 4, 5];
+let sum = 0;
+
+function adder(num) {
+  sum += num;
 }
+
+array.forEach(adder);
+console.log(sum);
