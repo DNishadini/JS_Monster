@@ -239,6 +239,19 @@ console.log(personAge);
 console.log(personCountry);
 console.log(personGender);*/
 
-const age = 25;
+//Ternary Operator
+/*const age = 25;
 const isAdult = age >= 18 ? "Yes, is an adult" : "No, is not an adult";
-console.log(isAdult);
+console.log(isAdult);*/
+
+//Example 20
+/*const haveMoney = true;
+const canBuy = haveMoney ? "Can buy the item" : "Cannot buy the item";
+console.log(canBuy);*/
+
+//Example 21(for...in loop)
+
+const object = { a: 1, b: 2, c: 3 };
+for (key in object) {
+  console.log(key, object[key]);
+}
