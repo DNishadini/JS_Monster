@@ -12,5 +12,5 @@ function createVehicle(type, brand, model, year) {
 }
 
 const vehicle1 = createVehicle("Car", "Toyota", "Camry", 2020);
-const vehicle2 = createVehicle("Motorcycle", "Honda", "idk", 2019);
+const vehicle2 = createVehicle("Motorcycle", "Honda", "idk", 2024);
 console.log(vehicle1);
